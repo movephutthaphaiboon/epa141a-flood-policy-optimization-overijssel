@@ -370,6 +370,70 @@ def get_model_for_problem_formulation(problem_formulation_id):
         outcomes.append(ArrayOutcome("Expected Evacuation Costs"))
         dike_model.outcomes = outcomes
 
+    ###### MODIFIED PROBLEM FORMULATION 6 ######
+    # Disaggregate over locations and cost types:
+    elif problem_formulation_id == 6:
+        outcomes = []
+        for dike in function.dikelist:
+            # Total Costs for each dike (sum of investment and damage)
+            outcomes.append(
+                ScalarOutcome(
+                    f"{dike}_Total Costs",
+                    variable_name=[
+                        f"{dike}_Dike Investment Costs",
+                        f"{dike}_Expected Annual Damage"
+                    ],
+                    function=sum_over,
+                    kind=direction,
+                )
+            )
+            # Dike Investment Costs
+            outcomes.append(
+                ScalarOutcome(
+                    f"{dike}_Dike Investment Costs",
+                    variable_name=f"{dike}_Dike Investment Costs",
+                    function=sum_over,
+                    kind=direction,
+                )
+            )
+            # Expected Annual Damage
+            outcomes.append(
+                ScalarOutcome(
+                    f"{dike}_Expected Annual Damage",
+                    variable_name=f"{dike}_Expected Annual Damage",
+                    function=sum_over,
+                    kind=direction,
+                )
+            )
+            # Expected Number of Deaths
+            outcomes.append(
+                ScalarOutcome(
+                    f"{dike}_Expected Number of Deaths",
+                    variable_name=f"{dike}_Expected Number of Deaths",
+                    function=sum_over,
+                    kind=direction,
+                )
+            )
+        # RfR Total Costs
+        outcomes.append(
+            ScalarOutcome(
+                "RfR Total Costs",
+                variable_name="RfR Total Costs",
+                function=sum_over,
+                kind=direction,
+            )
+        )
+        # Expected Evacuation Costs
+        outcomes.append(
+            ScalarOutcome(
+                "Expected Evacuation Costs",
+                variable_name="Expected Evacuation Costs",
+                function=sum_over,
+                kind=direction,
+            )
+        )
+        dike_model.outcomes = outcomes
+
     else:
         raise TypeError("unknown identifier")
 
