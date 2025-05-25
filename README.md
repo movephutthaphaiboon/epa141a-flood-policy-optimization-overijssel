@@ -1,4 +1,4 @@
-# Dutch Flood Policy Optimization (Ijssel River) - Overijssel's Perspective
+# Dutch Flood Policy Optimization (IJssel River) - Overijssel's Perspective
 
 ## Background
 
