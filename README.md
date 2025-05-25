@@ -26,7 +26,7 @@ As an analyst of Overijssel province ...
     | **Name** | **Description** | **Potential Impact** |
     |----------|-----------------|----------------------|
     | `discount rate {timestep}` | The percentage used to **discount future damages** to present value. Values: 1.5%, 2.5%, 3.5%, 4.5%. | Affects weight of future losses. Higher rate = less importance given to future damages. |
-    | `A.{dike_ring}_ID flood wave shape` | Index for one of 133 **predefined flood wave hydrographs** (lookup data). | Different flood timing and peak level influences severity of flood damage differently. |
+    | `A.0_ID flood wave shape` | Index for one of 133 **predefined flood wave hydrographs** (lookup data). | Different flood timing and peak level influences severity of flood damage differently. |
     | `A.{dike_ring}_Bmax` | **Maximum breach width** (30–350 m). | Larger Bmax = more water outflow, wider inundation, higher damages and casualties. |
     | `A.{dike_ring}_pfail` | **Probability of dike failure**, from 0 to 1. | Higher `pfail` increases risk of breach and subsequent flooding. |
     | `A.{dike_ring}_Brate` | **Breach growth rate** in m/day. Typical values: 0, 1.5, or 10. | Higher `Brate` = faster flood propagation, less time for response or evacuation. |
