@@ -54,17 +54,6 @@ As an analyst of Overijssel province ...
 
 ## Analysis Methods
 
-
-| **Name**                   | **Description**                                      | **Aggregation Level**               |
-|----------------------------|------------------------------------------------------|-------------------------------------|
-| Total Costs                | Total of all cost types                              | Aggregated/Disaggregated            |
-| Expected Number of Deaths  | Total deaths across all dikes                        | Aggregated/Disaggregated            |
-| Expected Annual Damage     | Total or per-dike annual flood damage                | Aggregated/Disaggregated            |
-| Dike Investment Costs      | Total or per-dike investment costs                   | Aggregated/Disaggregated            |
-| RfR Investment Costs       | Total Room for the River project costs               | Aggregated                          |
-| Evacuation Costs           | Total evacuation costs                               | Aggregated                          |
-
-
 ...
 
 ## Results
