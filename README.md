@@ -1,14 +1,18 @@
-# epa141a-flood-policy-optimization-overijssel
+# Dutch Flood Policy Optimization (Ijssel River) - Overijssel's Perspective
 
 ## Background
 
 ...
 
-## Project Objectives
+#### Objectives
 
 ...
 
-## Actor Perspective: Analyst of Overijssel Province
+#### Actor Perspective: Overijssel Province
+
+As an analyst of Overijssel province ...
+
+## Repository Structure
 
 ...
 
@@ -49,6 +53,17 @@
     | Evacuation Costs | Total evacuation costs | Aggregated |
 
 ## Analysis Methods
+
+
+| **Name**                   | **Description**                                      | **Aggregation Level**               |
+|----------------------------|------------------------------------------------------|-------------------------------------|
+| Total Costs                | Total of all cost types                              | Aggregated/Disaggregated            |
+| Expected Number of Deaths  | Total deaths across all dikes                        | Aggregated/Disaggregated            |
+| Expected Annual Damage     | Total or per-dike annual flood damage                | Aggregated/Disaggregated            |
+| Dike Investment Costs      | Total or per-dike investment costs                   | Aggregated/Disaggregated            |
+| RfR Investment Costs       | Total Room for the River project costs               | Aggregated                          |
+| Evacuation Costs           | Total evacuation costs                               | Aggregated                          |
+
 
 ...
 
