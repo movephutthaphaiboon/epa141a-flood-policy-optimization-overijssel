@@ -12,7 +12,7 @@ def cost_fun(ratio, c, b, lambd, dikeinit, dikeincrease):
     dikeincrease = dikeincrease * 100  # cm
     dikeinit = dikeinit * 100
 
-    cost = ((c + b * dikeincrease) * np.exp(lambd * (dikeinit + dikeincrease))) * ratio
+    cost = ((c + b * dikeincrease) * np.exp(lambd * (dikeinit + dikeincrease))) * ratio # exponential to dike increase
     return cost * 1e6
 
 
