@@ -309,4 +309,12 @@ class DikeNetwork:
             data[f"RfR Total Costs"].append(G.nodes[f"RfR_projects {s}"]["cost"])
             data[f"Expected Evacuation Costs"].append(np.sum(EECosts))
 
+         # After all loops, aggregate to scalars
+        for dike in dikelist:
+            data[f"{dike}_Expected Annual Damage"] = float(np.sum(data[f"{dike}_Expected Annual Damage"]))
+            data[f"{dike}_Expected Number of Deaths"] = float(np.sum(data[f"{dike}_Expected Number of Deaths"]))
+            data[f"{dike}_Dike Investment Costs"] = float(np.sum(data[f"{dike}_Dike Investment Costs"]))
+        data["RfR Total Costs"] = float(np.sum(data["RfR Total Costs"]))
+        data["Expected Evacuation Costs"] = float(np.sum(data["Expected Evacuation Costs"]))
+
         return data

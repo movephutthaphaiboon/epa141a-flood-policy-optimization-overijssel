@@ -15,17 +15,31 @@ from dike_model_function import DikeNetwork  # @UnresolvedImport
 
 import numpy as np
 
-
 def sum_over(*args):
     numbers = []
     for entry in args:
-        try:
-            value = sum(entry)
-        except TypeError:
-            value = entry
-        numbers.append(value)
+        # Flatten if entry is a list/array
+        if isinstance(entry, (list, np.ndarray)):
+            numbers.extend(entry)
+        else:
+            numbers.append(entry)
+    # Remove any None values
+    numbers = [n for n in numbers if n is not None]
+    # If empty, return 0.0
+    if not numbers:
+        return 0.0
+    return float(np.sum(numbers))
 
-    return sum(numbers)
+#def sum_over(*args):
+ #   numbers = []
+  #  for entry in args:
+   #     try:
+    #        value = sum(entry)
+     #   except TypeError:
+      #      value = entry
+       # numbers.append(value)
+
+    #return sum(numbers)
 
 
 def sum_over_time(*args):
