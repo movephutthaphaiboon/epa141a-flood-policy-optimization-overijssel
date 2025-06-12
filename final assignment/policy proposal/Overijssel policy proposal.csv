@@ -1,0 +1,23 @@
+﻿Column1;Column2;Column3;Column4;Column5;Column6;Column7;Column8;Column9;Column10;Column11;Column12;Column13;Column14;Column15;Column16;Column17;Column18;Column19;Column20;Column21;Column22;Column23;Column24;Column25;Column26;Column27;Column28;Column29;Column30;Column31;Column32;Column33;Column34;Column35;Column36;Column37;Column38;Column39
+Column1;Column2;Column3;Column4;Column5;Column6;Column7;Column8;Column9;Column10;Column11;Column12;Column13;Column14;Column15;Column16;Column17;Column18;Column19;Column20;Column21;Column22;Column23;Column24;Column25;Column26;Column27;Column28;Column29;Column30;Column31;Column32;Column33;Column34;Column35;Column36;Column37;Column38;Column39
+HET GROTE BELEIDSRESULTATEN EXCELLETJE (Resultaten op 1000 scenarios robustness);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Rijkswaterstaat policy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RWS 1;1;0;0;0;0;0;1;0;0;0;0;0;0;0;0;3;5;0;0;0;0;0;0;0;0;7;0;0;8;0;0;;;;;;;
+RWS 2;1;1;0;0;0;0;1;1;0;0;0;0;0;0;0;3;5;0;0;0;0;0;0;0;0;7;0;0;8;0;0;;;;;;;
+RWS 3;1;1;1;0;0;0;1;1;1;0;0;0;0;0;0;3;5;0;0;0;0;0;0;0;0;7;0;0;8;0;0;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Policy Overijssel;1;1;1;0;0;0;1;1;1;0;0;0;0;0;0;1;0;0;0;3;0;0;3;0;0;5;0;0;4;0;0;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Policy;Expected Annual Damage Mean;Expected Annual Damage Std;Expected Annual Damage CV;Expected Annual Damage Max Regret;Expected Annual Damage Mean Regret;Expected Annual Damage Rank Std;Dike Investment Costs Mean;Dike Investment Costs Std;Dike Investment Costs CV;Dike Investment Costs Max Regret;Dike Investment Costs Mean Regret;Dike Investment Costs Rank Std;RfR Investment Costs Mean;RfR Investment Costs Std;RfR Investment Costs CV;RfR Investment Costs Max Regret;RfR Investment Costs Mean Regret;RfR Investment Costs Rank Std;Evacuation Costs Mean;Evacuation Costs Std;Evacuation Costs CV;Evacuation Costs Max Regret;Evacuation Costs Mean Regret;Evacuation Costs Rank Std;Expected Number of Deaths Mean;Expected Number of Deaths Std;Expected Number of Deaths CV;Expected Number of Deaths Max Regret;Expected Number of Deaths Mean Regret;Expected Number of Deaths Rank Std;Total Costs Mean;Total Costs Std;Total Costs CV;Total Costs Max Regret;Total Costs Mean Regret;Total Costs Rank Std;Satisficing Count;Total Scenarios
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Rijkswaterstaat policy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RWS 1;425281530.7;521332132.7;1.225851807;2688486718;391535102.4;1.278919323;116697859.7;4.47E-08;3.83E-16;160274.9059;160274.9059;0;115300000;0;0;0;0;0;22420.0558;26377.78293;1.176526194;114910.5895;22420.0558;0.841843037;0.07147559;0.094103155;1.316577512;0.339028422;0.065930232;1.157916997;657301810.5;521357232.1;0.793177843;2539664726;270632915.4;2.293171087;0;1000
+RWS 2;272680421.4;403656656.4;1.48032871;2461735004;238933993.1;1.398354173;116697859.7;4.47E-08;3.83E-16;160274.9059;160274.9059;0;230600000;0;0;115300000;115300000;0;15053.27032;21680.18114;1.440230639;113584.1951;15053.27032;1.011184204;0.044208259;0.073022764;1.651790085;0.327193972;0.0386629;1.203870967;619993334.3;403677764.4;0.651100168;2440400090;233324439.2;1.583440015;0;1000
+RWS 3;177382404.4;314692288.1;1.774089651;2437503746;143635976.1;1.410725397;116697859.7;4.47E-08;3.83E-16;160274.9059;160274.9059;0;345900000;0;0;230600000;230600000;0;9990.638086;17003.58515;1.701951868;104671.5756;9990.638086;1.12485746;0.027318097;0.055007556;2.013594041;0.311296309;0.021772738;1.180182965;639990254.8;314708945.6;0.491740215;2531468053;253321359.6;1.319537866;0;1000
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+policy Overijssel;101414732.9;256098235.4;2.525256717;2242264222;64985062.3;1.323773537;116486620.3;1.49E-08;1.28E-16;0;0;0;345900000;0;0;230600000;230600000;0;2289.22481;4223.709369;1.845039137;35404.18118;2289.22481;1.343218238;0.033655811;0.075391553;2.240075336;0.580148475;0.027909405;1.678394473;563803642.4;256101194.7;0.454238276;2280297839;174125133.2;1.195326234;0;1000
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
