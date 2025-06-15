@@ -123,9 +123,9 @@ class DikeNetwork:
                     )
 
     def __call__(self, timestep=1, **kwargs):
-        print("[DEBUG] __call__ received kwargs:")
-        for k, v in kwargs.items():
-            print(f"  {k}: {v}")
+        #print("[DEBUG] __call__ received kwargs:")
+        #for k, v in kwargs.items():
+            #print(f"  {k}: {v}")
         
         G = copy.deepcopy(self.G)
         Qpeaks = self.Qpeaks
@@ -137,13 +137,13 @@ class DikeNetwork:
         # Load all kwargs into network. Kwargs are uncertainties and levers:
         for item in kwargs:
             if "discount rate" in item:
-                print(f"[DEBUG] Setting discount rate: {item} = {kwargs[item]}")
+                #print(f"[DEBUG] Setting discount rate: {item} = {kwargs[item]}")
                 G.nodes[item]["value"] = kwargs[item]
             else:
                 string1, string2 = item.split("_")
                 if "RfR" in string2:
                     temporal_step = string2.split(" ")[1]
-                    print(f"[DEBUG] Setting RfR: {item} (step {temporal_step}) = {kwargs[item]}")
+                    #print(f"[DEBUG] Setting RfR: {item} (step {temporal_step}) = {kwargs[item]}")
                     proj_node = G.nodes[f"RfR_projects {temporal_step}"]
                     proj_node["cost"] += (
                         kwargs[item] * proj_node[string1]["costs_1e6"] * 1e6
@@ -154,7 +154,7 @@ class DikeNetwork:
                                 kwargs[item] * proj_node[string1][key]
                             )
                 else:
-                    print(f"[DEBUG] Setting {string1}[{string2}] = {kwargs[item]}")
+                    #print(f"[DEBUG] Setting {string1}[{string2}] = {kwargs[item]}")
                     G.nodes[string1][string2] = kwargs[item]
 
         self.progressive_height_and_costs(G, dikelist, self.planning_steps)
