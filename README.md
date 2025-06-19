@@ -24,12 +24,14 @@ Here is a simple overview of what you will find in this repository. Each part ma
 ## Getting Started
 
 1. **Install dependencies**  
+
    Use the provided `requirements.txt`:
    
    ```sh
    pip install -r requirements.txt
 2. **Run Notebooks**
-Open the notebooks (00-04) in the final assignment/ folder with Jupyter or VS Code and follow the instructions in each notebook.
+
+    Open the notebooks (00-04) in the final assignment/ folder with Jupyter or VS Code and follow the instructions in each notebook.
 
 ## Results
 
