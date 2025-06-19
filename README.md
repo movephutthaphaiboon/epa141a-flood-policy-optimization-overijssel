@@ -14,7 +14,7 @@ This repository contains the final assignment for TU Delft's EPA141A course, foc
 
 Here is a simple overview of what you will find in this repository. Each part matches a jupyter notebook that helps with a different step in optimizing flood policies for the IJssel River.
 
-- **00 Policy Simulation Tool**: Simulates flood management policies and their impacts using the dike model.
+- **00 Policy Simulation Tool**: Simulates a flood management policy under multiple scenarios using the dike model.
 - **01 Scenario Analysis**: Explores different future scenarios and select 4 intereting/vulnerable scenarios to perform policy search.
 - **02 Direct Search**: Optimizes policy choices through direct search algorithms.
 - **03 Robustness Evaluation**: Evaluates how robust policies are across a range of scenarios.
