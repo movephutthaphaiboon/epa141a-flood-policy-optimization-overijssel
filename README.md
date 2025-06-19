@@ -35,4 +35,4 @@ Here is a simple overview of what you will find in this repository. Each part ma
 
 ## Results
 
-The full analysis, discussion, and policy recommendations will be included in the final report submitted on Brightspace.
+The full analysis, result interpretation, discussion, and policy recommendations will be included in the final report submitted on Brightspace.
