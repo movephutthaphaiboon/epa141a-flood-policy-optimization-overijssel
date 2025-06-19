@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Dutch Flood Policy Optimization (IJssel River) -
+  Overijssel's Perspective
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Thunchanok
+    family-names: Phutthaphaiboon
+  - given-names: Rachel Delvin
+    family-names: Sutiono
+  - given-names: Yao
+    family-names: Wang
+  - given-names: Myriam Kammüller
+    family-names: Pont
+repository-code: >-
+  https://github.com/movephutthaphaiboon/epa141a-flood-policy-optimization-overijssel/
+license: BSD-3-Clause
+date-released: '2025-06-19'
